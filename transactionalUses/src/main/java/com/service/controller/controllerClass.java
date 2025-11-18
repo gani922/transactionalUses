@@ -16,6 +16,7 @@ public class controllerClass {
         serv.createAccounts();
         return "Accounts created!";
     }
+    
 
     @PostMapping("/transfer")
     public String transfer(@RequestParam Long from,
